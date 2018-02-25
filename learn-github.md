@@ -54,9 +54,9 @@ have been working on. There's a bit of a learning curve but you really only need
 
 4. If you're ready to `push` your changes, type  `git status` to check which files you're about to move. It's good to spot check just in case something is included that you didn't mean to have.
 
-5. If everything looks good and you want to commit all the files, type `git commit -am {message}`, replace {message} with a quick description of what you're pushing.  
+5. If everything looks good and you want to commit all the files, type `git add .` to add everything, then type `git commit -m "{message}"`, replace {message} with a quick description of what you're pushing.  
 
-6. To push everything (last step!), type `git push -u origin {your branch}` (in the future you should be able to just type `git push`)
+6. To push everything (last step!), type `git push -u origin {your branch}` (in the future you should be able to just type `git push`). At first it will say "fatal HttpRequestException encountered." Really, it's just prompting you for your username and password to make sure you actually have write access to the repository. 
 
 7. If you get an error saying something along the lines of your branch is behind, try typing `git pull` to merge any remote changes you may have made.
 
@@ -64,4 +64,4 @@ have been working on. There's a bit of a learning curve but you really only need
 
 **Please** do not change anyone else's working branch! It can cause problems and is a pain to fix sometimes.
 
-For now I'll be only person who merges pull requests to the master branch while everyone gets used to GitHub. If you want to submit your pull request (merge your branch with the master branch), let me know! I'll give you more detailed instructions. 
+For now I'll be only person who merges pull requests to the master branch while everyone gets used to GitHub. If you want to submit your pull request (merge your branch with the master branch), let me know! I'll give you more detailed instructions.

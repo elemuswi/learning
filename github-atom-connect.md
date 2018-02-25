@@ -2,7 +2,7 @@
 
 You can also push to GitHub through Atom!
 
-1. In the bottom right corner of Atom, you should see a series of icons. Click the one that looks like a file.
+1. In the bottom right corner of Atom, you should see a series of icons. Click the one that looks like a file. Also, make sure that your branch icon says your name, not `master`.
 
 2. The Git window should pop up. In the top section you'll see all the files with unstaged changes. Click "Stage All."
 

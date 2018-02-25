@@ -14,7 +14,7 @@ My name is {name}.
 
 Here's a picture of my favorite Olympic sport!
 
-**for this you'll need find an image and save it to your folder**
+**for this you'll need find an image and save it to your "images" folder in the cloned repository**
 
 ---
 
